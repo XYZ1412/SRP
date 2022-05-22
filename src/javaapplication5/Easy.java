@@ -17,8 +17,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import sun.audio.AudioPlayer;
-import sun.audio.AudioStream;
+
 
 public class Easy<T> extends javax.swing.JFrame {
     InputStream d;
@@ -306,8 +305,12 @@ try{
     try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Cheering 3-SoundBible.com-1680253418.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+  ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);}}
@@ -317,8 +320,12 @@ try{
     try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Sad_Trombone-Joe_Lamb-665429450.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+   ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);}}
@@ -365,8 +372,12 @@ try{
             try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Cheering 3-SoundBible.com-1680253418.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+   ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);}}
@@ -376,8 +387,12 @@ try{
     try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Sad_Trombone-Joe_Lamb-665429450.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+   ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);}}
@@ -1058,8 +1073,12 @@ try{
     try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Cheering 3-SoundBible.com-1680253418.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+  ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);
@@ -1070,8 +1089,12 @@ try{
     try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Sad_Trombone-Joe_Lamb-665429450.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+   ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);}}
@@ -1085,8 +1108,12 @@ try{
           try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Cheering 3-SoundBible.com-1680253418.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+   ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);
@@ -1097,8 +1124,12 @@ try{
     try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Sad_Trombone-Joe_Lamb-665429450.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+   ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);}}
@@ -1114,8 +1145,12 @@ try{
     try{
    
    InputStream g=getClass().getResourceAsStream("/Music/Sad_Trombone-Joe_Lamb-665429450.wav");
-   AudioStream a=new AudioStream(g);
-       AudioPlayer.player.start(a);
+  ais=AudioSystem.getAudioInputStream(g);
+ clip=AudioSystem.getClip();
+     
+      clip.open(ais);
+        clip.start();
+        
    }
    catch(Exception e){
     JOptionPane.showMessageDialog(null, e);}}

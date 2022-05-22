@@ -23,7 +23,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
-import sun.audio.*;
+
 
 public class Main extends javax.swing.JFrame  {
     String s="";
