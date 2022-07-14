@@ -8,3 +8,6 @@ Run the game with SRP.bat in the following path:
 
 Requirements:
 The path of JDK must be recognized  in the System environment  variabels 
+
+
+This project is done by XYZ1412
